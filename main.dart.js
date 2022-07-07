@@ -19419,7 +19419,7 @@ _.f=c
 _.r=d
 _.x=e
 _.y=f
-_.z=!1
+_.Q=_.z=!1
 _.a=null
 _.b=g
 _.c=null},
@@ -65231,7 +65231,7 @@ A.J6.prototype={
 L(a,b){var s,r=this,q=null,p=r.y,o=A.eD("Register to share your live location",q,q,q,A.cK(q,q,p,q,q,q,q,q,q,q,q,r.d.j4(18,b),q,B.m3,q,q,!0,q,q,q,q,q,q,q,q),q,q),n=A.cP(q,q,q,q,q,15,q,q,q),m=A.amy(r.r,"wisdom","Username",q),l=A.amy(r.x,"","Password",!0),k=A.cP(q,q,q,q,q,10,q,q,q),j=t.w,i=b.J(j).f.a.a>=1200?b.J(j).f.a.a/3:b.J(j).f.a.a/2
 i=A.cP(q,!r.z?A.aiX(A.eD("Register",q,q,q,A.cK(q,q,B.j,q,q,q,q,q,q,q,q,new A.il().j4(16,b),q,B.ak,q,q,!0,q,q,q,q,q,q,q,q),q,q),new A.a68(r,b)):A.kC(A.DC(B.j),q,q),p,q,q,60,q,q,i)
 j=b.J(j).f.a.a>=1200?b.J(j).f.a.a/2.5:b.J(j).f.a.a/1.5
-s=!r.z?A.aiX(A.eD("login if you have an account",q,q,q,A.cK(q,q,B.j,q,q,q,q,q,q,q,q,new A.il().j4(16,b),q,B.ak,q,q,!0,q,q,q,q,q,q,q,q),q,q),new A.a69(r,b)):A.kC(A.DC(B.j),q,q)
+s=!r.Q?A.aiX(A.eD("login if you have an account",q,q,q,A.cK(q,q,B.j,q,q,q,q,q,q,q,q,new A.il().j4(16,b),q,B.ak,q,q,!0,q,q,q,q,q,q,q,q),q,q),new A.a69(r,b)):A.kC(A.DC(B.j),q,q)
 return A.IL(q,A.cP(B.ag,A.aAq(A.aii(A.b([o,n,m,l,k,i,A.cP(q,s,p,q,q,60,new A.aO(0,20,0,0),q,j)],t.F),B.fa,B.h1,B.ru)),B.j,q,q,1/0,q,q,1/0))}}
 A.a68.prototype={
 $0(){var s,r=this.a
@@ -65278,7 +65278,7 @@ return A.L(null,r)}})
 return A.M($async$$0,r)},
 $S:20}
 A.a63.prototype={
-$0(){this.a.z=!0},
+$0(){this.a.Q=!0},
 $S:0}
 A.a64.prototype={
 $1(a){var s
@@ -65287,7 +65287,7 @@ s=this.a
 s.aw(new A.a61(s))},
 $S:8}
 A.a61.prototype={
-$0(){this.a.z=!1},
+$0(){this.a.Q=!1},
 $S:0}
 A.uQ.prototype={
 az(){return new A.LB($.ass(),B.l)}}
